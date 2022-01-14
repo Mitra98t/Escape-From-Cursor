@@ -24,7 +24,6 @@ contrast([255, 255, 255], [255, 255, 0]); // 1.074 for yellow
 contrast([255, 255, 255], [0, 0, 255]); // 8.592 for blue
 
 
-//testing
 function App() {
   const hasWindow = typeof window !== 'undefined';
   const boxRef = useRef()
