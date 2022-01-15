@@ -76,7 +76,6 @@ function App() {
       w = w > windDim.w / 2 ? w - 208 : w
       h = h > windDim.h / 2 ? h - 112 : h
       let distance = Math.round(Math.sqrt((oldw - w) ^ 2 + (oldh - h) ^ 2))
-      console.log(distance)
       cycle = distance > 21
     } while (!cycle)
 
